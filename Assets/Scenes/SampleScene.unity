@@ -135,6 +135,10 @@ GameObject:
   - component: {fileID: 333374299}
   - component: {fileID: 333374298}
   - component: {fileID: 333374297}
+  - component: {fileID: 441387504}
+  - component: {fileID: 441387503}
+  - component: {fileID: 441387502}
+  - component: {fileID: 441387501}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -143,12 +147,14 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!65 &333374297
+--- !u!65 &441387501
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 333374296}
+  m_GameObject: {fileID: 441387500}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -164,12 +170,14 @@ BoxCollider:
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &333374298
+--- !u!23 &441387502
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 333374296}
+  m_GameObject: {fileID: 441387500}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -206,6 +214,7 @@ MeshRenderer:
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &333374299
+--- !u!33 &441387503
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -214,6 +223,9 @@ MeshFilter:
   m_GameObject: {fileID: 333374296}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &333374300
+  m_GameObject: {fileID: 441387500}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &441387504
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -223,6 +235,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 441387500}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.1, y: 0.674, z: -3.142}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -743,3 +759,4 @@ SceneRoots:
   - {fileID: 1209698516}
   - {fileID: 1694934329}
   - {fileID: 333374300}
+  - {fileID: 441387504}
